@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>TubeLinker</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css">
+        <style>
+            #features {
+            padding-top: 100px;
+            padding-bottom: 100px;
+            }
+            .feature-item i {
+                color: #0d6efd;
+                margin-bottom: 50px; /* Add spacing between the icon and the title */
+            }
+            .feature-item h3 {
+            font-size: 30px; /* Change font size for category titles */
+            margin-bottom: 15px; /* Optional: add margin bottom */
+            }
+            .feature-item p {
+                font-size: 18px; /* Change font size for descriptions */
+            }
+            .feature-item .bi {
+            font-size: 3rem; /* Set font size for the icon */
+            color: #0d6efd; /* Set color for the icon */
+            margin-bottom: 50px; /* Add spacing between the icon and the title */
+            }   
+        </style>
+    </head>
+
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-light bg-light static-top">
+            <div class="container">
+                <a class="navbar-brand" href="#!">TubeLinker</a>
+                <a class="btn btn-primary" href="#signup">Sign Up</a>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="text-center text-white">
+                            <!-- Page heading-->
+                            <h1 class="mb-5">Unlock exponential growth for your YouTube channel with TubeLinker</h1>
+                            <form class="form-subscribe" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                                <!-- Email address input-->
+                                <div class="row">
+                                    <div class="col">
+                                        <input class="form-control form-control-lg" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:email">Email Address is not valid.</div>
+                                    </div>
+                                    <!--<div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">I want to save my spot</button></div>-->
+                                </div>
+                                <div class="row" style="margin-top: 20px;">
+                                    <div class="col">
+                                        <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">I Want To Save My Spot</button>
+                                    </div>
+                                </div>
+
+                                <!-- Submit success message-->
+                                <!---->
+                                <!-- This is what your users will see when the form-->
+                                <!-- has successfully submitted-->
+                                <div class="d-none" id="submitSuccessMessage">
+                                    <div class="text-center mb-3">
+                                        <div class="fw-bolder">Submission successful!</div>
+                                        <p>Thank you for joining our waitlist !</p>
+                                    </div>
+                                </div>
+                                <!-- Submit error message-->
+                                <!---->
+                                <!-- This is what your users will see when there is-->
+                                <!-- an error submitting the form-->
+                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Description Section -->
+        <section class="description-section text-center py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="mb-4">What is TubeLinker?</h2>
+                        <p class="text-muted">TubeLinker is a revolutionary platform that harnesses the power of social sharing to help content creators like you achieve exponential growth for your YouTube channel. 
+                            By motivating users to share your links, TubeLinker not only boosts your channel's visibility but also rewards both creators and sharers with points that provide more views for your link hence more clicks. 
+                            Join the TubeLinker community today and unlock the full potential of your content!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <div class="feature-item">
+                            <i class="far fa-credit-card fa-3x mb-4"></i>
+                            <h3>Free to Use</h3>
+                            <p>No hidden costs – enjoy all of the benefits without spending a penny!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="feature-item">
+                            <i class="fas fa-seedling fa-3x mb-4"></i>
+                            <h3>Organic Growth Accelerator</h3>
+                            <p>Experience natural, sustainable growth for your YouTube channel without the need for paid promotions or artificial boosts!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="feature-item">
+                            <i class="fas bi-window fa-3x mb-4"></i>
+                            <h3>User-Friendly Interface</h3>
+                            <p>Designed with simplicity in mind, to suit your needs!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action-->
+        <section class="call-to-action text-white text-center" id="signup">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+                        <form class="form-subscribe" id="contactFormFooter" data-sb-form-api-token="API_TOKEN">
+                            <!-- Email address input-->
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-control form-control-lg" id="emailAddressBelow" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                                    <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Email Address is required.</div>
+                                    <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Email Address is not valid.</div>
+                                </div>
+                                <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">I Want To Save My Spot</button></div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Submission successful!</div>
+                                    <p>Thank you for joining our waitlist !</p>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
